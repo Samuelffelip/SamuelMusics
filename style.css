@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Oswald:wght@300&family=Pacifico&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dela Gothic One', 'Oswald', 'Pacifico', 'sans-serif';
+}
+
+body{
+    background-color: #1ED760;
+}
+
+.email{
+    font-size: 20px;
+    font-family: 'Oswald';
+}
+
+h1{
+    color: black;
+    text-align: center;
+    background-color: #1d3557;
+    padding: 20px;
+    transition: 0.5s;
+}
+
+h2{
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Oswald';
+}
+
+.playlist{                       /* BOTAO DO SPOTIFY */
+    background-color: black;
+    font-size: 25px;
+    margin-top: 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 5px;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+
+.spotifyicon{             /* ICONE DO SPOTIFY */
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 200px;
+    background-color: #1ED760;
+}
+
+.desc-video1{             /* NAO EXISTE AMOR EM SP */
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Oswald';
+   
+}
+
+.desc-video2{             /* SAMURAI (DJAVAN LO-FI) */
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Oswald';
+    
+}
+
+.desc-video3{            /* 505 */
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Oswald';
+  
+}
+
+.desc-video4{           /* Flamingos */
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Oswald';
+}
+
+span{
+    color: #1ED760;
+    font-family: 'Pacifico';
+    font-size: 30px;
+}
+
+
+.video1{                    /* MUSICA 1 (AMOR EM SP) */
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 100px;
+    border: 4px solid #14213d;
+}
+
+.video2{                   /* MUSICA 2 (SAMURAI) */
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 130px;
+    border: 4px solid #14213d;
+
+}
+
+.video3{
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 130px;
+    border: 4px solid #14213d;
+}
+
+.video4{
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 130px;
+    border: 4px solid #14213d;
+}
+
+.rodape{
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1d3557;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    margin-top: 140px;
+    font-family: 'Oswald';
+    font-size: 20px;
+}
+
+
+
+
+
+
+      /* DESKTOP RESOLUTION */
+
+@media only screen and (min-width: 400px)  {  /* Mudar tela a partir de 400 pixel de largura */
+
+    body{
+        background-color: #1ED760;
+    }
+
+    .email{
+        font-size: 20px;
+        font-family: 'Oswald';
+    }
+    
+
+    h1{
+        color: black;
+        text-align: center;
+        background-color: #1d3557;
+        padding: 20px;
+    }
+
+    h1:hover{
+        background-color: black;
+        color: white;
+    }
+
+    h2{
+        font-size: 50px;
+        margin-left: 20px;
+        margin-top: 20px;
+        text-align: center;
+        font-family: 'Oswald';
+    }
+
+    .playlist{                       /* BOTAO DO SPOTIFY */
+        background-color: black;
+        font-size: 25px;
+        margin-top: 30px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        padding: 5px;
+        border-radius: 10px;
+        border: 3px solid black;
+        transition: 0.5s;
+    }
+
+    .playlist:hover{
+        background: #2941AB;
+    }
+
+    .spotifyicon{             /* ICONE DO SPOTIFY */
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 200px;
+        background-color: #1ED760;
+    }
+    
+    .desc-video1{             /* NAO EXISTE AMOR EM SP */
+        font-size: 30px;
+        text-align: center;
+        font-family: 'Oswald';
+       
+    }
+
+    .desc-video2{             /* SAMURAI (DJAVAN LO-FI) */
+        font-size: 30px;
+        text-align: center;
+        font-family: 'Oswald';
+        
+    }
+
+    .desc-video3{            /* 505 */
+        font-size: 30px;
+        text-align: center;
+        font-family: 'Oswald';
+      
+    }
+
+    .desc-video4{           /* Flamingos */
+        font-size: 30px;
+        text-align: center;
+        font-family: 'Oswald';
+    }
+
+    span{
+        color: #1ED760;
+        font-size: 60px;
+        font-family: 'Pacifico';
+    }
+
+    .video1{                    /* MUSICA 1 (AMOR EM SP) */
+        margin-top: 150px;
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        border: 4px solid #14213d;
+    }
+
+    .video2{                   /* MUSICA 2 (SAMURAI) */
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 150px;
+        border: 4px solid #14213d;
+    }
+
+    .video3{
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 150px;
+        border: 4px solid #14213d;
+    }
+
+    .video4{
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 150px;
+        border: 4px solid #14213d;
+    }
+
+    .rodape{
+
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #1d3557;
+        color: black;
+        padding: 20px;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 140px;
+        font-family: 'Oswald';
+    }
+    
+    
+    
+
+
+
+
+
+
+
+}
+
+
